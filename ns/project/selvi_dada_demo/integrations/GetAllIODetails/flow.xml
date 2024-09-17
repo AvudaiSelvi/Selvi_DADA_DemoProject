@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="WmTNMigration" SERVICE="WmTNMigration.wm.b2b_io_wrapper:getAllwmioProjects">
+<INVOKE NAME="WmTNMigration" SERVICE="WmTNMigration.wm.java:randomNumberGenerator">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>
