@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="GP01_OrderManagement-master">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">15</value>
+  <value name="build">16</value>
   <null name="description"/>
   <value name="created_date">16-09-2024 16:20:58 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-09-17T10:43:50.54883633Z</value>
+  <value name="lastUpdated">2024-09-17T11:11:36.038449599Z</value>
   <value name="wmProjectId">fl181983273d190d630eb649</value>
   <value name="creator">AvudaiSelvi S</value>
 </Values>
