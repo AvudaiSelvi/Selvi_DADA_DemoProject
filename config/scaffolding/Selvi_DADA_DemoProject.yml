@@ -91,6 +91,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.1018
+- serviceName: WmTNMigration.wm.java:randomNumberGenerator
+  packages:
+  - name: WmTNMigration
+    version: "1.0"
 configurationVariables:
   ? artConnection.Selvi_DADA_DemoProject.project.selvi_dada_demo.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
   : avse_db
